@@ -4,8 +4,8 @@ export function mySkills() {
         { name: 'HTML', level: 60 },
         { name: 'CSS', level: 40 },
         { name: 'JavaScript', level: 20 },
-        { name: 'Node.js', level: 50 },
-        { name: 'UI/UX Design', level: 70 },
+        { name: 'Node.js', level: 30 },
+        { name: 'UI/UX Design', level: 50 },
         { name: 'GitHub', level: 40 }
     ];
 

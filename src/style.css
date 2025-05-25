@@ -75,7 +75,9 @@ flex-direction: row;}
   justify-content: center;
   
 }
-
+#novella{
+  width: 20%;
+}
 .text-gradient {
     background: linear-gradient(to right, #b52afc, #4363f9, #ffd53e,#b52afc);
     background-size: 18%;
@@ -261,11 +263,8 @@ button{
   margin-left: 10px;
 }
 img{
-  padding-top: 30px;
-  width: 400px;
-  animation: show 1s;
-  border-radius: 300px;
-  border-style: solid;
+  width: 30rem;
+  animation: show 1.5s ;
   
 }
 
@@ -379,24 +378,12 @@ img{
 }
 
 .myContact{
+  /* align-items: center; */
+  width: 30%;
   display: flex;
-  flex-direction: row;
   margin-top: 1em;
-}
-#sendMessage{
-  display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-items: start;
-  width: 20em;
-  height: 20em;
-  background-color: #4363f9;
-  margin-left: 10px;
-}
-#contactIcons{
-  display: flex;
-  flex-direction: column;
-  justify-items: start;
-  width: 10em;
   height: 20em;
   border-style: solid;
   border-color:#9966CC;
@@ -406,17 +393,24 @@ img{
   backdrop-filter: blur(10px);
   margin-left: 10px;
   padding: 10px;
+  align-items: flex-start;
 }
-#mailIcon{
-  display:block;
-  /* background-color: #4363f9; */
+.iconConnect{
+  margin-right: 10px;
+  background-color:  #b52afc;
   border-radius: 50px;
-  margin-right: 5px;
+  
+}
+.linkContact{
+  text-decoration: none;
+  color:#ffd53e ;
 }
 .mailContact{
+  align-items: center;
   display: flex;
   flex-direction: row;
   justify-items: center;
+
 }
 .innerInfo{
   display: flex;
