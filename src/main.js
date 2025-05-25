@@ -30,7 +30,7 @@ document.querySelector('#app').innerHTML = `
       </div>
     </div>
     <div class="imgMe">
-      <img src="./src/cat.gif" alt="cat">
+      <img src="https://sun9-24.userapi.com/impg/dvmRjFzaqX7MiLm5lajWKVkq9gQIU9VE5-Ga8g/R1Gv2LoOyJ4.jpg?size=1620x1617&quality=95&sign=5479fcbec0c6ed96a2cfb27f75a36635&type=album" alt="me" id="meImg">
     </div>
   </div>
 </section>

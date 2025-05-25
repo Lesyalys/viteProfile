@@ -73,7 +73,11 @@ flex-direction: row;}
   display: flex;
   width: 30%;
   justify-content: center;
+
   
+}
+#meImg{
+  border-radius: 50%;
 }
 #novella{
   width: 20%;
