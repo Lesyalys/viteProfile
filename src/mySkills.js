@@ -1,12 +1,11 @@
 export function mySkills() {
     const skillContainer = document.getElementById('elementSkill');
     const skills = [
-        { name: 'HTML', level: 60 },
-        { name: 'CSS', level: 40 },
-        { name: 'JavaScript', level: 20 },
-        { name: 'Node.js', level: 30 },
-        { name: 'UI/UX Design', level: 50 },
-        { name: 'GitHub', level: 40 }
+        { name: 'HTML', level: 5 },
+        { name: 'CSS', level: 5 },
+        { name: 'JavaScript', level: 5 },
+        { name: 'UI/UX Design', level: 5 },
+        { name: 'GitHub', level: 5 }
     ];
 
     skills.forEach(skill => {
