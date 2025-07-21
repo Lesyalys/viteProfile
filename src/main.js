@@ -1,6 +1,6 @@
 import './style.css'
-import {startAdd} from './stars'
-import {mySkills} from './mySkills'
+import { startAdd } from './stars'
+import { mySkills } from './mySkills'
 startAdd();
 document.querySelector('#app').innerHTML = `
 
@@ -13,7 +13,7 @@ document.querySelector('#app').innerHTML = `
             <li><a href="#project">Project</a></li>
             <li><a href="#skills">Skills</a></li>
             <li><a href="#contacts">Contact</a></li>
-            <li><button class="ResumeBtn">Resume</button></li>
+            <li><button class="ResumeBtn"><a href="https://nizhnevartovsk.hh.ru/profile/me?hhtmFrom=ProfileActivator" target=_link>Resume</a></button></li>
         </ul>
       </nav>
   </header>
@@ -95,7 +95,7 @@ document.querySelector('#app').innerHTML = `
             </div>
             <div class="innerInfo">
               <p>TG</p>
-              <a href="https://t.me/Shadowtav" target="_blink" class="btnNav" id="view">@Shadowtav</a>
+              <a href="https://t.me/ctrcctrvv" target="_blink" class="btnNav" id="view">@ctrcctrvv</a>
             </div>
           </li>
         </ul>
